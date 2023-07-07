@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 100vh;
+  position: relative;
+}
+
+.logo {
+  width: auto;
+  height: auto;
+}
+.hamburger-icon {
+  width: auto;
+  height: auto;
+}
+
+.navbar {
+  position: absolute;
+  top: 7%;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  z-index: 1;
+}
+
+.secPart1 {
+  background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4c900878f534cf0d3f17_Untitled%20design%20(11).png");
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+.secPart2 {
+  background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4c900878f534cf0d3f17_Untitled%20design%20(11).png");
+  display: flex;
+  width: 100%;
+  justify-content: start;
+}
+
+.level1-sec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.level2-sec1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 3rem;
+}
+
+.level1-sec1-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3rem;
+}
+
+.level2-sec1-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.h1-1-part1 {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  text-align: end;
+}
+
+.h1-2-part1 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  padding-top: 0.5rem;
+}
+
+.h1-1-part2 {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  text-align: start;
+}
+
+.h1-2-part2 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  padding-top: 0.5rem;
+}
+
+.description-1 {
+  color: white;
+  font-size: 1.2rem;
+  text-align: end;
+}
+
+.description-2 {
+  color: white;
+  font-size: 1.2rem;
+  text-align: start;
+}
+
+.Button-1 {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  text-align: end;
+  margin-top: 4rem;
+}
+
+.Button-2 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  text-align: start;
+  margin-top: 4rem;
+}
