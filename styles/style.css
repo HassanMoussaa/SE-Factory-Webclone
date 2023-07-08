@@ -402,6 +402,7 @@ body {
   height: 25rem;
   width: 25rem;
   object-fit: contain;
+  border-radius: 1rem;
 }
 
 .header-4 {
@@ -496,7 +497,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .sec5Part1 {
@@ -562,9 +563,10 @@ body {
   padding: 0.5rem;
   background-color: #232323;
   border-radius: 1rem;
+  color: #dcdee1;
 }
 
-/* ------section6------ */
+/* ------section 6------ */
 
 .section-6 {
   background-color: white;
@@ -578,17 +580,65 @@ body {
   position: relative;
 }
 
+.sec6Wrapper {
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sec6Part1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 0 2rem;
+  height: fit-content;
+  width: 100%;
+}
+
+.contentBox-6 {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  background-color: #363738;
+  border: 1rem solid #363738;
+  border-radius: 1rem;
+}
+
+.leftBox-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+}
+
 .leftBox-footer-6 {
   display: flex;
   justify-content: flex-start;
-  margin-top: 10%;
-  width: 100%;
-  height: 100%;
+  margin-top: 20%;
 }
-.leftBox-footer-6 span {
+.leftBox-footer-6 div:nth-child(2) {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin: 0;
+  height: 100%;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+.leftBox-footer-6 div:nth-child(2) b {
+  font-size: 1.3rem;
+}
+
+.leftBox-footer-6 p {
+  margin: 0;
+  color: #dcdee1;
 }
 
 .leftBox-footer-6 img {
