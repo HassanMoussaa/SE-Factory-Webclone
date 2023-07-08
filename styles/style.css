@@ -140,6 +140,7 @@ body {
   width: 100%;
   padding-left: 10.5rem;
   margin: 0 2rem;
+  height: fit-content;
 }
 
 .sec2Header {
@@ -191,4 +192,100 @@ body {
   border-radius: 2;
   border: 1rem solid #28eea7;
   border-radius: 1rem;
+}
+
+.section-3 {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  align-content: flex-start;
+  gap: 3rem;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+}
+
+.sec3Container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 1.5rem;
+}
+
+.sec3LeftPart {
+  display: flex;
+  flex-direction: column;
+}
+
+.textLeftPart {
+  background-color: #f1f2f3;
+  padding: 3rem 8rem;
+  border-radius: 1rem;
+}
+
+.textLeftPart h1 {
+  font-size: 8rem;
+  margin: 0 0;
+}
+
+.textLeftPart h2 {
+  font-size: 2rem;
+}
+
+.sec3RightPart {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  align-items: start;
+  align-content: flex-start;
+  gap: 1rem;
+}
+
+.box1 {
+  background-color: #f1f2f3;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  padding: 1.8rem;
+  border-radius: 1rem;
+}
+
+.box2 {
+  background-color: #f1f2f3;
+  flex-grow: 0.5;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  padding: 1.8rem;
+  border-radius: 1rem;
+}
+
+.box3 {
+  background-color: #f1f2f3;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  padding: 1.8rem;
+  border-radius: 1rem;
+  justify-content: space-between;
+}
+
+.box4 {
+  background-color: #f1f2f3;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: space-between;
+  padding: 1.8rem;
+  border-radius: 1rem;
+}
+
+.sec3RightPart p {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.sec3RightPart h1 {
+  font-size: 4.5rem;
+  margin: 0;
 }
