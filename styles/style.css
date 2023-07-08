@@ -35,7 +35,7 @@ body {
   justify-content: end;
 }
 .secPart2 {
-  background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4c900878f534cf0d3f17_Untitled%20design%20(11).png");
+  background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4d48dc5b31ff0aa4ca67_Untitled%20design%20(12).png");
   display: flex;
   width: 100%;
   justify-content: start;
@@ -119,4 +119,76 @@ body {
   font-size: 2rem;
   text-align: start;
   margin-top: 4rem;
+}
+
+.section-2 {
+  background-color: #f1f2f3;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  gap: 1rem;
+  padding-top: 3rem;
+  gap: 1rem;
+}
+
+.sec2Part1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 2rem;
+  width: 100%;
+  padding-left: 10.5rem;
+  margin: 0 2rem;
+}
+
+.sec2Header {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  height: 100%;
+}
+
+.arrow {
+  color: #28eea7;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.greetingSec2 {
+  color: black;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.circlePart {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 61%;
+}
+
+.circle-black {
+  background-color: #363738;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.circle-white {
+  background-color: #dcdee1;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.circle-green {
+  background-color: #28eea7;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.sec2Youtube {
+  border-radius: 2;
+  border: 1rem solid #28eea7;
+  border-radius: 1rem;
 }
