@@ -50,7 +50,7 @@ body {
 .level2-sec1 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: end;
   padding-right: 3rem;
 }
 
@@ -72,6 +72,8 @@ body {
   color: white;
   font-size: 2rem;
   text-align: end;
+  width: fit-content;
+  padding: 0 0.5rem;
 }
 
 .h1-2-part1 {
@@ -81,10 +83,12 @@ body {
 }
 
 .h1-1-part2 {
-  background-color: black;
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 2rem;
   text-align: start;
+  width: fit-content;
+  padding: 0 0.5rem;
 }
 
 .h1-2-part2 {
@@ -108,17 +112,22 @@ body {
 .Button-1 {
   background-color: black;
   color: white;
-  font-size: 2rem;
-  text-align: end;
+  font-size: 1.3rem;
   margin-top: 4rem;
+  width: fit-content;
+  padding: 0.8rem 1.2rem;
+  text-decoration: none;
 }
 
 .Button-2 {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-size: 2rem;
+  font-size: 1.3rem;
   text-align: start;
   margin-top: 4rem;
+  width: fit-content;
+  padding: 0.8rem 1.2rem;
+  text-decoration: none;
 }
 
 .section-2 {
