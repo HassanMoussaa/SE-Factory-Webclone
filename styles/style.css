@@ -491,22 +491,32 @@ body {
   padding: 3rem 0;
 }
 
+.sec5Wrapper {
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.sec5Part1 {
+  display: flex;
+  flex: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
 .container-sec5 {
   display: flex;
   border: 1rem solid #232323;
   border-radius: 0.6rem;
 }
 
-.contentBox-5 {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  width: fit-content;
-  height: fit-content;
-  background-color: #232323;
-}
-
 .leftBox-5 {
+  background-color: #232323;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -515,7 +525,6 @@ body {
 }
 
 .leftBox-5 div a {
-  background-color: #232323;
   font-size: 1.1rem;
   color: #dcdee1;
   padding: 1rem;
@@ -546,10 +555,13 @@ body {
 
 .sec4Part3 {
   display: flex;
-  justify-content: flex-s;
-  text-align: end;
+  justify-content: end;
+  align-items: center;
   gap: 1rem;
   font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: #232323;
+  border-radius: 1rem;
 }
 
 /* ------section6------ */
