@@ -1049,6 +1049,9 @@ body {
   padding: 0.5rem;
   border-radius: 0.5rem;
 }
+.icons-11 a img:hover {
+  background-color: #fff;
+}
 
 .sec11-part2 {
   display: flex;
