@@ -711,7 +711,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  width: 80%;
+  width: 100%;
+  padding: 0 15%;
 }
 
 .sec7Part2 {
@@ -769,7 +770,7 @@ body {
   flex-direction: column;
   gap: 3rem;
   width: 80%;
-  padding-left: 5%;
+  padding: 0 15%;
 }
 
 .sec8Part2 {
@@ -801,7 +802,7 @@ body {
   border-radius: 1rem;
   color: #fcfcfd;
   font-size: 0.8rem;
-  flex-grow: 0.5;
+  flex-grow: 1;
 }
 
 .upperLvl-8 {
