@@ -823,3 +823,60 @@ body {
   background-color: #28eea7;
   padding: 1rem 1.2rem;
 }
+
+/* <!-- section 9 of the web page --> */
+
+.section-9 {
+  background-color: #fcfcfd;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  padding: 3rem 0;
+}
+
+.sec9Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 80%;
+}
+
+.sec9Part1 {
+  display: flex;
+  flex: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.title-9 {
+  display: flex;
+  width: 100%;
+  width: fit-content;
+  gap: 1.8rem;
+  padding: 0.2rem 1.2rem;
+}
+.sec9Part2 {
+  display: flex;
+  flex-direction: column;
+}
+.sec9Part2 div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec9Part2 div:nth-child(2) {
+  margin-left: 1rem;
+}
+
+.sec9Part2 img {
+  height: 80px;
+  margin-bottom: 0.8rem;
+  flex-grow: 1;
+  object-fit: contain;
+}
