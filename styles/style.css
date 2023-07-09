@@ -834,13 +834,13 @@ body {
   justify-content: center;
   gap: 3rem;
   flex-wrap: wrap;
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
 
 .sec9Wrapper {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 4rem;
   width: 80%;
 }
 
@@ -930,4 +930,85 @@ body {
   color: #fcfcff;
   background-color: #232323;
   margin: 0;
+}
+
+/* Section 11 of the webpage */
+
+.section-11 {
+  background-color: #232323;
+}
+
+.sec11Wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 8rem;
+  padding: 3rem 2rem;
+  gap: 4rem;
+}
+
+.sec11-part1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col1-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.sec11-col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 1rem;
+  padding-left: 1rem;
+}
+.sec11-col1 a {
+  color: #a5a6a9;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.sec11-col1 p {
+  color: #dcdee1;
+  font-size: 1.1rem;
+}
+
+/* note col 2 has same prop as col1 */
+
+.sec11-col3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sec11-col3 div:nth-child(1) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icons-11 {
+  display: flex;
+  gap: 1rem;
+}
+
+.icons-11 a img {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #a5a6a9;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.sec11-part2 {
+  display: flex;
+  color: #a5a6a9;
+  justify-content: space-between;
+  padding-left: 1rem;
+  font-size: 0.75rem;
+}
+
+.sec11-part2 div:nth-child(2) a {
+  text-decoration: none;
+  color: #a5a6a9;
+  font-size: 1.2rem;
 }
