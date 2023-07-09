@@ -890,7 +890,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  width: 80%;
+  width: 100%;
+  padding: 0 15%;
 }
 
 .sec9Part1 {
@@ -974,11 +975,12 @@ body {
   padding: 0.8rem 1rem;
 }
 
-.sec10Wrapper div:nth-child(2) p b {
+.sec10Wrapper div:nth-child(2) p b a {
   padding: 1rem;
   color: #fcfcff;
   background-color: #232323;
   margin: 0;
+  text-decoration: none;
 }
 
 /* Section 11 of the webpage */
