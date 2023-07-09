@@ -823,10 +823,12 @@ body {
 .rowForm1 {
   display: flex;
   justify-content: space-between;
+  gap: 1.5rem;
 }
 .rowForm2 {
   display: flex;
   justify-content: space-between;
+  gap: 1.5rem;
 }
 .rowForm3 {
   display: flex;
@@ -842,6 +844,7 @@ body {
 .formAlignment-8 {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 .leftBox-footer-8 {
@@ -849,8 +852,7 @@ body {
 }
 
 .formAlignment-8 input {
-  width: 100%;
-  height: 100%;
+  height: 2.5rem;
 }
 .formButton-8 {
   display: flex;
@@ -860,6 +862,15 @@ body {
   color: #363738;
   background-color: #28eea7;
   padding: 1rem 1.2rem;
+}
+
+.radiobuttons-8 {
+  display: flex;
+  gap: 3%;
+}
+
+.rowForm4 input {
+  height: 2.5rem;
 }
 
 /* <!-- section 9 of the web page --> */
