@@ -30,11 +30,30 @@ body {
 }
 
 .secPart1 {
-  background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4c900878f534cf0d3f17_Untitled%20design%20(11).png");
+  background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4c900878f534cf0d3f17_Untitled%20design%20(11).png"),
+    linear-gradient(to right, #28eea7, purple, lightcoral);
   display: flex;
   width: 100%;
   justify-content: end;
+  animation: my-animation 7s infinite;
+  background-blend-mode: overlay;
 }
+
+@keyframes my-animation {
+  0% {
+    background-color: rgba(40, 238, 167, 1);
+  }
+  33.33% {
+    background-color: purple;
+  }
+  66.66% {
+    background-color: lightcoral;
+  }
+  100% {
+    background-color: rgba(40, 238, 167, 1);
+  }
+}
+
 .secPart2 {
   background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4d48dc5b31ff0aa4ca67_Untitled%20design%20(12).png");
   display: flex;
@@ -130,7 +149,7 @@ body {
   padding: 0.8rem 1.2rem;
   text-decoration: none;
 }
-
+/* -------section2------- */
 .section-2 {
   background-color: #f1f2f3;
   height: 100vh;
@@ -203,7 +222,7 @@ body {
   border: 1rem solid #28eea7;
   border-radius: 1rem;
 }
-
+/* -------section-3-------- */
 .section-3 {
   background-color: white;
   height: 100%;
@@ -302,7 +321,7 @@ body {
   margin-top: 0;
   margin-bottom: 0.9rem;
 }
-
+/* --------section 4------- */
 .section-4 {
   background-color: #28eea7;
   height: 100%;
@@ -449,12 +468,21 @@ body {
   height: fit-content;
 }
 
-.leftBox-footer-p p {
+.leftBox-footer p {
   background-color: #232323;
   font-size: 1.1rem;
   color: #dcdee1;
   padding: 1rem;
   padding-right: 0;
+  margin: 0;
+}
+
+.leftBox-footer-button {
+  background-color: #232323;
+  font-size: 1.1rem;
+  color: #dcdee1;
+  cursor: pointer;
+  padding-right: 1rem;
 }
 
 .leftBox-footer p:nth-child(2) {
