@@ -1,9 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: Noto Sans Mono, sans-serif;
 }
 
-.section-1 {
+#section-1 {
   display: flex;
   justify-content: center;
   background-color: black;
@@ -150,7 +154,7 @@ body {
   text-decoration: none;
 }
 /* -------section2------- */
-.section-2 {
+#section-2 {
   background-color: #f1f2f3;
   height: 100vh;
   display: flex;
@@ -223,7 +227,7 @@ body {
   border-radius: 1rem;
 }
 /* -------section-3-------- */
-.section-3 {
+#section-3 {
   background-color: white;
   height: 100%;
   display: flex;
@@ -322,7 +326,7 @@ body {
   margin-bottom: 0.9rem;
 }
 /* --------section 4------- */
-.section-4 {
+#section-4 {
   background-color: #28eea7;
   height: 100%;
   display: flex;
@@ -509,7 +513,7 @@ body {
 
 /*-------- Section 5 Work --------*/
 
-.section-5 {
+#section-5 {
   background-color: #363738;
   height: 100%;
   display: flex;
@@ -596,7 +600,7 @@ body {
 
 /* ------section 6------ */
 
-.section-6 {
+#section-6 {
   background-color: white;
   height: 100%;
   display: flex;
@@ -696,7 +700,7 @@ body {
 }
 
 /* <!-- section 7 of the webpage --> */
-.section-7 {
+#section-7 {
   background-color: #363738;
   height: 100%;
   display: flex;
@@ -875,7 +879,7 @@ body {
 
 /* <!-- section 9 of the web page --> */
 
-.section-9 {
+#section-9 {
   background-color: #fcfcfd;
   height: 100%;
   display: flex;
@@ -933,7 +937,7 @@ body {
 
 /* --------section 10 of the webpage------- */
 
-.section-10 {
+#section-10 {
   background-color: #363738;
   padding: 4rem 0;
 }
@@ -985,7 +989,7 @@ body {
 
 /* Section 11 of the webpage */
 
-.section-11 {
+#section-11 {
   background-color: #232323;
 }
 
