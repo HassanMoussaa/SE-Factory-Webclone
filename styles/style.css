@@ -104,6 +104,32 @@ body {
   color: rgb(255, 255, 255);
   font-size: 3rem;
   padding-top: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: fade-out-in 3s infinite;
+}
+
+@keyframes fade-out-in {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+    text-indent: 0;
+  }
+  50% {
+    opacity: 0;
+    transform: translateX(100%);
+    text-indent: -100%;
+  }
+  50.01% {
+    opacity: 0;
+    transform: translateX(-100%);
+    text-indent: -100%;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    text-indent: 0;
+  }
 }
 
 .h1-1-part2 {
@@ -612,7 +638,7 @@ body {
 }
 
 .sec6Wrapper {
-  padding: 0 10%;
+  padding: 0 15%;
   display: flex;
   flex-direction: column;
   width: 100%;
