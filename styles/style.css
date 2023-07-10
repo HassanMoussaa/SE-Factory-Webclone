@@ -106,7 +106,7 @@ body {
   padding-top: 0.5rem;
   white-space: nowrap;
   overflow: hidden;
-  animation: fade-out-in 3s infinite;
+  animation: fade-out-in 4s infinite;
 }
 
 @keyframes fade-out-in {
